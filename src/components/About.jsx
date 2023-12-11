@@ -1,7 +1,70 @@
 function About() {
   return (
-    <div id="about" className="">
-      About
+    <div
+      id="about"
+      className=" container mx-auto mt-12 md:mt-96 py-4 mb-[1000px] font-inter"
+    >
+      <div className="flex justify-center space-x-24 py-6 text-[#7d87a4]">
+        <div className=" space-y-8">
+          <div className="flex items-center space-x-4 ">
+            <div className="text-[#64ffda] text-xl mt-1">01.</div>
+            <div className="text-[#b4bfde] text-[32px] font-bold">About Me</div>
+            <div className="h-[1px] w-[300px] bg-[#7d87a4]"></div>
+          </div>
+          <div className="mt-24 w-[500px] space-y-4">
+            <p>
+              Hello! I am <span className="text-[#64ffda]">Fahim</span>, and I
+              love creating things on the internet effortlessly. My journey into
+              web development started in 2021 when I decided to clone a website,
+              and surprisingly, it effortlessly taught me a lot about HTML and
+              CSS! Subsequently, I effortlessly took a few web development
+              courses on <span className="text-[#64ffda]">Udemy</span> and
+              effortlessly mastered the{" "}
+              <span className="text-[#64ffda]">MERN stack.</span>
+            </p>
+            <p>
+              Fast-forward to today, I possess the ability to effortlessly build
+              and deploy complete websites using MERN technology. Currently, my
+              primary <span className="text-[#64ffda]">focus</span> is on
+              learning <span className="text-[#64ffda]">Next.js</span>, as it
+              serves as the next logical step for every MERN developer. Excited
+              about the continuous evolution of web development, I am eager to
+              explore new technologies and enhance my skills.
+            </p>
+            <p>
+              Currently, I am actively{" "}
+              <span className="text-[#64ffda]">seeking opportunities </span> to
+              kickstart my professional career as a web developer and embark on
+              a journey of growth and self-improvement.
+            </p>
+            <p>Here are a few technologies I have learnt recently:</p>
+            <ul className="list-disc grid grid-cols-2 ml-5">
+              <li className="text-[#64ffda] col-span-1">JavaScript (ES6+)</li>
+              <li className="text-[#64ffda] col-span-1">React.js</li>
+              <li className="text-[#64ffda] col-span-1">Tailwind CSS</li>
+              <li className="text-[#64ffda] col-span-1">Express.js</li>
+              <li className="text-[#64ffda] col-span-1">Git </li>
+              <li className="text-[#64ffda] col-span-1">Node.js</li>
+              <li className="text-[#64ffda] col-span-1">Mongodb</li>
+              <li className="text-[#64ffda] col-span-1">Mongoose (ODM)</li>
+            </ul>
+          </div>
+        </div>
+        <div className="mt-24">
+          <div className=" relative w-[300px] h-[300px]  rounded-sm z-20 ">
+            <img
+              className="w-full h-full rounded-sm"
+              src="/pic2.png"
+              alt="img"
+            />
+            <div
+              className="hover:hidden absolute z-30 inset-0 bg-[#64ffda] opacity-80 rounded-sm 
+            transition-all duration-150"
+            ></div>
+          </div>
+          <div className="relative z-10 -top-[280px] left-3 w-[300px] h-[300px]  border-2 border-[#64ffda] rounded-sm"></div>
+        </div>
+      </div>
     </div>
   );
 }

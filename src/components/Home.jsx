@@ -1,5 +1,4 @@
-// import { Outlet } from "react-router-dom";
-// import About from "./About";
+import About from "./About";
 import Banner from "./Banner";
 // import Contact from "./Contact";
 // import Education from "./Education";
@@ -11,7 +10,8 @@ function AppLayout() {
     <div className="min-h-screen py-6">
       <Navbar />
       <Banner />
-      {/* <About /> */}
+      <About />
+
       {/* <Education />
       <Project />
       <Contact /> */}
