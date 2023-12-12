@@ -3,22 +3,19 @@ import { Outlet } from "react-router-dom";
 
 function Education() {
   return (
-    <div
-      id="education"
-      className="container mx-auto mt-12 py-4 font-inter mb-[1000px] "
-    >
-      <div className="flex flex-col w-[50%] mx-auto space-y-6">
+    <div id="education" className="container mx-auto mt-12 py-4 font-inter  ">
+      <div className="flex flex-col w-[95%] mx-4 md:w-[80%] xl:w-[50%] md:mx-auto space-y-6">
         <div className="flex space-x-4 items-center">
           <div className="text-[#64ffda] text-[16px] md:text-[22px] mt-1">
             02.
           </div>
-          <div className="text-[#b4bfde] text-[28px] font-bold">
+          <div className="text-[#b4bfde] text-[22px] md:text-[28px] font-bold">
             Where I’ve Studied
           </div>
-          <div className="h-[1px] w-[300px] bg-[#7d87a4]"></div>
+          <div className="h-[1px] w-[100px] md:w-[200px] lg:w-[300px] bg-[#7d87a4]"></div>
         </div>
-        <div className="navlink grid grid-cols-9 gap-x-6 w-full text-[14px]">
-          <div className="col-span-2">
+        <div className="navlink grid grid-cols-9 gap-x-2 md:gap-x-6 w-full text-[14px]">
+          <div className="col-span-3 md:col-span-2">
             <NavLink
               to="/education/graduation"
               className="block border-l-2 border-[#7d87a4] text-[#808aa7] hover:text-[#64ffda] px-5 py-3 hover:bg-[rgb(20,35,64)] hover:cursor-pointer
@@ -32,7 +29,7 @@ function Education() {
               className="block border-l-2 border-[#7d87a4] text-[#808aa7] hover:text-[#64ffda] px-5 py-3 hover:bg-[rgb(20,35,64)] hover:cursor-pointer
             transition-all duration-200"
             >
-              Higher Study
+              College Study
             </NavLink>
 
             <NavLink
@@ -40,10 +37,10 @@ function Education() {
               className="block border-l-2 border-[#7d87a4] text-[#808aa7] hover:text-[#64ffda] px-5 py-3 hover:bg-[rgb(20,35,64)] hover:cursor-pointer
             transition-all duration-200"
             >
-              Primary Study
+              School Study
             </NavLink>
           </div>
-          <div className="col-span-7 p-4 ">
+          <div className="col-span-6 md:col-span-7 p-4 ">
             <Outlet />
           </div>
         </div>

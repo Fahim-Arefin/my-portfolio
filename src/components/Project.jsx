@@ -1,6 +1,6 @@
 function Project() {
   return (
-    <div id="project" className="h-[500px] bg-red-500">
+    <div id="project" className="container mx-auto mt-12 py-4 font-inter  ">
       Project
     </div>
   );

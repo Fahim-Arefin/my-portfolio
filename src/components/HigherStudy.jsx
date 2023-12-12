@@ -5,32 +5,22 @@ function HigherStudy() {
         <h1 className="text-xl text-[#aeb8d6] font-semibold">
           Dhaka City College (DCC)
         </h1>
-        <span className="">Jan 2018 - June 2023</span>
+        <span className="">Jan 2015 - Mar 2017</span>
         <div className="flex space-x-4 mt-4">
           <span className="text-xl text-[#64ffda]">▹</span>
           <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
+            Embarking on my academic journey, I achieved a perfect GPA of 5 out
+            of 5 in college, serving as inspiration for my upcoming graduation.
+            Fueled by a deep interest in web tech, I chose CSE. College life,
+            though swift, provided a rich foundation, concluding in one seamless
+            experience.
           </p>
         </div>
         <div className="flex space-x-4 mt-4">
           <span className="text-xl text-[#64ffda]">▹</span>
           <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
-          </p>
-        </div>
-        <div className="flex space-x-4 mt-4">
-          <span className="text-xl text-[#64ffda]">▹</span>
-          <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
+            Now, armed with a perfect GPA and a passion for web tech, I eagerly
+            anticipate applying my skills to new challenges in the next phase.
           </p>
         </div>
       </div>

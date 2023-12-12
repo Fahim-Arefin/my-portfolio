@@ -9,28 +9,29 @@ function Graduation() {
         <div className="flex space-x-4 mt-4">
           <span className="text-xl text-[#64ffda]">▹</span>
           <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
+            I recently graduated with a degree in Computer Science and Software
+            Engineering from UIU, exploring the intricacies of the field. My
+            academic journey has been marked by a passion for both theoretical
+            concepts and practical applications.
           </p>
         </div>
         <div className="flex space-x-4 mt-4">
           <span className="text-xl text-[#64ffda]">▹</span>
           <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
+            Graduating with a 3.67 CGPA, I am proud of my commitment to
+            excellence. Securing scholarships in every trimester, including a
+            100% scholarship, reflects my dedication and consistent academic
+            achievements.
           </p>
         </div>
         <div className="flex space-x-4 mt-4">
           <span className="text-xl text-[#64ffda]">▹</span>
           <p>
-            Deliver high-quality, robust production code for a diverse array of
-            projects for clients including Harvard Business School, Everytown
-            for Gun Safety, Pratt Institute, Koala Health, Vanderbilt
-            University, The 19th News, and more
+            Now transitioning to the professional realm, I am excited to apply
+            my skills in the technology sector. Actively seeking opportunities,
+            I aim to make meaningful contributions, leveraging my academic
+            foundation and the motivation drawn from my scholarship
+            achievements.
           </p>
         </div>
       </div>
