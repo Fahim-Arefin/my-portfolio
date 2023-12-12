@@ -2,16 +2,18 @@ function About() {
   return (
     <div
       id="about"
-      className=" container mx-auto mt-12 md:mt-96 py-4 mb-[1000px] font-inter"
+      className=" container mx-auto mt-12 md:mt-96 py-4 font-inter"
     >
-      <div className="flex justify-center space-x-24 py-6 text-[#7d87a4]">
-        <div className=" space-y-8">
+      <div className="flex flex-col lg:flex-row justify-center md:space-x-24 py-6 text-[#7d87a4]">
+        <div className="space-y-8 mx-4 md:mx-24 lg:mx-0">
           <div className="flex items-center space-x-4 ">
             <div className="text-[#64ffda] text-xl mt-1">01.</div>
-            <div className="text-[#b4bfde] text-[32px] font-bold">About Me</div>
-            <div className="h-[1px] w-[300px] bg-[#7d87a4]"></div>
+            <div className="text-[#b4bfde] text-[20px] md:text-[28px] font-bold">
+              About Me
+            </div>
+            <div className="h-[1px] w-[200px] md:w-[300px] bg-[#7d87a4]"></div>
           </div>
-          <div className="mt-24 w-[500px] space-y-4">
+          <div className="mt-24 w-full md:w-[500px] space-y-4 text-sm md:text-[16px]">
             <p>
               Hello! I am <span className="text-[#64ffda]">Fahim</span>, and I
               love creating things on the internet effortlessly. My journey into
@@ -50,8 +52,8 @@ function About() {
             </ul>
           </div>
         </div>
-        <div className="mt-24">
-          <div className=" relative w-[300px] h-[300px]  rounded-sm z-20 ">
+        <div className="mt-24 mx-12">
+          <div className="relative w-full md:w-[300px] h-[300px]  rounded-sm z-20 ">
             <img
               className="w-full h-full rounded-sm"
               src="/pic2.png"
@@ -62,7 +64,7 @@ function About() {
             transition-all duration-150"
             ></div>
           </div>
-          <div className="relative z-10 -top-[280px] left-3 w-[300px] h-[300px]  border-2 border-[#64ffda] rounded-sm"></div>
+          <div className="invisible md:visible relative z-10 -top-[280px] left-3 w-[300px] h-[300px]  border-2 border-[#64ffda] rounded-sm"></div>
         </div>
       </div>
     </div>

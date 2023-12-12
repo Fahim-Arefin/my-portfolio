@@ -1,7 +1,7 @@
 import About from "./About";
 import Banner from "./Banner";
 // import Contact from "./Contact";
-// import Education from "./Education";
+import Education from "./Education";
 import Navbar from "./Navbar";
 // import Project from "./Project";
 
@@ -11,10 +11,9 @@ function AppLayout() {
       <Navbar />
       <Banner />
       <About />
-
-      {/* <Education />
-      <Project />
-      <Contact /> */}
+      {/* <Education /> */}
+      {/* <Project /> */}
+      {/* <Contact /> */}
     </div>
   );
 }
