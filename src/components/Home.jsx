@@ -3,7 +3,7 @@ import Banner from "./Banner";
 // import Contact from "./Contact";
 import Education from "./Education";
 import Navbar from "./Navbar";
-// import Project from "./Project";
+import Project from "./Project";
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       <Banner />
       <About />
       <Education />
-      {/* <Project /> */}
+      <Project />
       {/* <Contact /> */}
     </div>
   );
