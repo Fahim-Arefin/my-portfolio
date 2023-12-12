@@ -2,7 +2,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 function Navbar() {
   return (
-    <div className="mx-12 font-mono sticky top-0">
+    <div className="mx-12 font-mono sticky top-4 z-[100]">
       <div className="navbar text-[#64ffda]">
         <div className="navbar-start">
           <div className="dropdown">

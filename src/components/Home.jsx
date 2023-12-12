@@ -3,6 +3,7 @@ import Banner from "./Banner";
 // import Contact from "./Contact";
 import Education from "./Education";
 import Navbar from "./Navbar";
+import OtherProjects from "./OtherProjects";
 import Project from "./Project";
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <About />
       <Education />
       <Project />
+      <OtherProjects />
       {/* <Contact /> */}
     </div>
   );
