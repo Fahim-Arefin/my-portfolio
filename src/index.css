@@ -10,3 +10,9 @@ body {
   background-color: #0a192f;
   color: white;
 }
+
+.navlink a.active {
+  background-color: rgb(20, 35, 64);
+  color: #64ffda;
+  border-left: 3px solid #64ffda;
+}

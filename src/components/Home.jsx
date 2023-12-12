@@ -5,17 +5,17 @@ import Education from "./Education";
 import Navbar from "./Navbar";
 // import Project from "./Project";
 
-function AppLayout() {
+function Home() {
   return (
     <div className="min-h-screen py-6">
       <Navbar />
       <Banner />
       <About />
-      {/* <Education /> */}
+      <Education />
       {/* <Project /> */}
       {/* <Contact /> */}
     </div>
   );
 }
 
-export default AppLayout;
+export default Home;

@@ -7,7 +7,9 @@ function About() {
       <div className="flex flex-col lg:flex-row justify-center md:space-x-24 py-6 text-[#7d87a4]">
         <div className="space-y-8 mx-4 md:mx-24 lg:mx-0">
           <div className="flex items-center space-x-4 ">
-            <div className="text-[#64ffda] text-xl mt-1">01.</div>
+            <div className="text-[#64ffda] text-[16px] md:text-[22px] mt-1">
+              01.
+            </div>
             <div className="text-[#b4bfde] text-[20px] md:text-[28px] font-bold">
               About Me
             </div>
