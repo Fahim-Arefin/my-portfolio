@@ -43,7 +43,7 @@ function Education() {
               Primary Study
             </NavLink>
           </div>
-          <div className="col-span-7 border ">
+          <div className="col-span-7 p-4 ">
             <Outlet />
           </div>
         </div>
@@ -53,4 +53,3 @@ function Education() {
 }
 
 export default Education;
-// ▹

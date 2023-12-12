@@ -16,3 +16,26 @@ body {
   color: #64ffda;
   border-left: 3px solid #64ffda;
 }
+
+.overflow-x-auto {
+  scrollbar-width: thin;
+  scrollbar-color: #0a192f #ccc;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #64ffda;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0a192f;
+}

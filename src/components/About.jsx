@@ -62,7 +62,7 @@ function About() {
               alt="img"
             />
             <div
-              className="hover:hidden absolute z-30 inset-0 bg-[#64ffda] opacity-80 rounded-sm 
+              className="mix-blend-darken hover:hidden absolute z-30 inset-0 bg-[#64ffda] opacity-80 rounded-sm 
             transition-all duration-150"
             ></div>
           </div>

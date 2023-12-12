@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from "react-router-dom";
 import "./index.css";
 import Home from "./components/Home";
 import Graduation from "./components/Graduation";
@@ -13,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     children: [
+      {
+        index: true, // This is the default route for "/"
+        element: <Navigate to="/education/graduation" />,
+      },
       {
         path: "/education/graduation",
         element: <Graduation />,
