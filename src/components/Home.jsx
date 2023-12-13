@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Contact from "./Contact";
 import Education from "./Education";
 import Email from "./Email";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 import OtherProjects from "./OtherProjects";
 import Project from "./Project";
@@ -20,6 +21,7 @@ function Home() {
       <SocialNav />
       <Email />
       <Contact />
+      <Footer />
     </div>
   );
 }

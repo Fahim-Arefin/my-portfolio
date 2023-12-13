@@ -76,7 +76,12 @@ function SocialNav() {
           </a>
         </li>
         <li className="w-5 h-5 hover:-translate-y-1 transition-all duration-500 hover:text-[#64ffdb]">
-          <a href="#" aria-label="Twitter" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.facebook.com/fahim.arefin.16"
+            aria-label="Facebook"
+            target="_blank"
+            rel="noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               role="img"
@@ -86,13 +91,15 @@ function SocialNav() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="feather feather-twitter"
+              className="feather feather-facebook"
             >
-              <title>Twitter</title>
-              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              <title>Facebook</title>
+              <path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+              <path d="M16 11.08V7h-3v4.08H9V15h4v5h3v-5h2.22l.78-4.92H16z"></path>
             </svg>
           </a>
         </li>
+
         <li className="w-5 h-5 hover:-translate-y-1 transition-all duration-500 hover:text-[#64ffdb]">
           <a href="#" aria-label="Codepen" target="_blank" rel="noreferrer">
             <svg
