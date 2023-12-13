@@ -24,24 +24,55 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#0a192f] rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <Link
+                  smooth
+                  to={"/#about"}
+                  className="space-x-2 tracking-wider"
+                >
+                  <span>01.</span>
+                  <span className="text-[#b4bfde] hover:text-[#64ffda]">
+                    About
+                  </span>
+                </Link>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <Link
+                  smooth
+                  to={"/#education"}
+                  className="space-x-2 tracking-wider"
+                >
+                  <span>02.</span>
+                  <span className="text-[#b4bfde] hover:text-[#64ffda]">
+                    Education
+                  </span>
+                </Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link
+                  smooth
+                  to={"/#project"}
+                  className="space-x-2 tracking-wider"
+                >
+                  <span>03.</span>
+                  <span className="text-[#b4bfde] hover:text-[#64ffda]">
+                    Project
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  smooth
+                  to={"/#contact"}
+                  className="space-x-2 tracking-wider"
+                >
+                  <span>04.</span>
+                  <span className="text-[#b4bfde] hover:text-[#64ffda]">
+                    Contact
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
