@@ -1,6 +1,6 @@
 function SocialNav() {
   return (
-    <div className="fixed bottom-0 left-12">
+    <div className="invisible lg:visible fixed bottom-0 left-12">
       <ul className="w-fit p-4 space-y-6 text-[#a8b2d1]">
         <li className="w-5 h-5 hover:-translate-y-1 transition-all duration-500 hover:text-[#64ffdb]">
           <a
