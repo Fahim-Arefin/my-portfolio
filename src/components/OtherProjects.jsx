@@ -9,7 +9,7 @@ function OtherProjects() {
         "Atomic Blog is a user-friendly web-based blogging platform, offering post creation, search, and dark mode. Primarily demonstrating React optimization, it initially had performance issues, resolved through memoization techniques like caching with 'memo,' 'useMemo,' and 'useCallback' hooks, ensuring a responsive experience.",
       live: "https://atomic-blog-web.netlify.app/",
       githubClientRepo: "https://github.com/Fahim-Arefin/atomic-blog",
-      technology: ["React", "Memoization"],
+      technology: ["React", "Tailwind CSS", "Memoization"],
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function OtherProjects() {
       live: "https://world-wise-application.netlify.app/",
       githubClientRepo: "https://github.com/Fahim-Arefin/worldwise-client-side",
       githubServerRepo: "https://github.com/Fahim-Arefin/worldwise-server-side",
-      technology: ["React", "Mongoose", "Express"],
+      technology: ["React", "Tailwind CSS", "Mongoose", "Express"],
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ function OtherProjects() {
         "Explore UsePopcorn, a movie-centric web app for searching, viewing details, rating, and managing your watchlist. Boasting local storage integration and a responsive design, UsePopcorn simplifies the process of discovering and organizing your favorite films.",
       live: "https://magnificent-speculoos-65fc3a.netlify.app/",
       githubClientRepo: "https://github.com/Fahim-Arefin/usePopcorn",
-      technology: ["React", "Rest API", "UseEffect"],
+      technology: ["React", "Tailwind CSS", "Rest API", "UseEffect"],
     },
   ];
 
