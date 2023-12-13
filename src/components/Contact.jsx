@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div id="contact" className="container mx-auto mt-44 py-4 pb-[100px] ">
+    <div id="contact" className="container mx-auto mt-36 py-4 pb-[100px] ">
       <div className="text-center text-[#64ffda] font-Roboto space-y-5">
         <div className="flex space-x-2 justify-center items-center">
           <div className=" text-sm ">04.</div>

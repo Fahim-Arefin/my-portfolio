@@ -54,19 +54,26 @@ function About() {
             </ul>
           </div>
         </div>
-        <div className="mt-24 mx-12">
-          <div className="relative w-full md:w-[300px] h-[300px]  rounded-sm z-20 ">
+        {/* img */}
+        <div className="mt-24 mx-12 group md:w-[300px] h-[300px] ">
+          <div
+            className="relative w-full md:w-[300px] h-[300px] rounded-sm z-20 group-hover:-translate-x-[2px] group-hover:-translate-y-[2px]
+          transition-all duration-150"
+          >
             <img
-              className="w-full h-full rounded-sm"
+              className=" w-full h-full rounded-sm"
               src="/pic2.png"
               alt="img"
             />
             <div
-              className="mix-blend-darken hover:hidden absolute z-30 inset-0 bg-[#64ffda] opacity-80 rounded-sm 
+              className="mix-blend-darken hover:opacity-0 absolute z-30 inset-0 bg-[#64ffda] opacity-80 rounded-sm 
             transition-all duration-150"
             ></div>
           </div>
-          <div className="invisible md:visible relative z-10 -top-[280px] left-3 w-[300px] h-[300px]  border-2 border-[#64ffda] rounded-sm"></div>
+          <div
+            className="invisible md:visible relative z-10 -top-[280px] left-4 w-[300px] h-[300px] border-2 border-[#64ffda] rounded-md
+          group-hover:translate-x-[2px] group-hover:translate-y-[2px] transition-all duration-150"
+          ></div>
         </div>
       </div>
     </div>
