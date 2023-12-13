@@ -33,7 +33,7 @@ function OtherProjects() {
   ];
 
   return (
-    <div className="container mx-auto mt-44 py-4 font-inter mb-[1000px]">
+    <div className="container mx-auto mt-44 py-4 font-inter">
       <div className="w-[95%] mx-4 md:w-[80%] lg:w-[70%] md:mx-auto space-y-12 ">
         {/* heading */}
         <div className="text-center">
