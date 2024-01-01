@@ -1,7 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 
 function Education() {
+  const location = useLocation();
+
+  console.log("Location", location);
   return (
     <div id="education" className="container mx-auto mt-12 py-4 font-inter  ">
       <div className="flex flex-col w-[95%] mx-4 md:w-[80%] xl:w-[50%] md:mx-auto space-y-6">
@@ -21,7 +24,7 @@ function Education() {
               className="block border-l-2 border-[#7d87a4] text-[#808aa7] hover:text-[#64ffda] px-5 py-3 hover:bg-[rgb(20,35,64)] hover:cursor-pointer
             transition-all duration-200"
             >
-              CS Graduation
+              CSE Graduation
             </NavLink>
 
             <NavLink
@@ -41,6 +44,11 @@ function Education() {
             </NavLink>
           </div>
           <div className="col-span-6 md:col-span-7 p-4 ">
+            {location.pathname === "/" && (
+              <div className="h-[100px] text-[#64ffda] flex md:ml-12 items-center">
+                <h1>Please select an education to see details</h1>
+              </div>
+            )}
             <Outlet />
           </div>
         </div>
