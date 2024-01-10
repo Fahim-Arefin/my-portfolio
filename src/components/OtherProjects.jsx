@@ -30,6 +30,15 @@ function OtherProjects() {
       githubClientRepo: "https://github.com/Fahim-Arefin/usePopcorn",
       technology: ["React", "Tailwind CSS", "Rest API", "UseEffect"],
     },
+    {
+      id: 4,
+      name: "React Quiz",
+      description:
+        "Welcome to the Quiz App, a React-based quiz application that offers an engaging way to test your knowledge and compete for high scores within a time limit. This app features a sleek design and various functionalities to enhance your quiz-taking experience.",
+      live: "https://react-quiz-system.netlify.app/",
+      githubClientRepo: "https://github.com/Fahim-Arefin/react-quiz",
+      technology: ["React", "useReducer", "Rest API", "Tailwind CSS"],
+    },
   ];
 
   return (
