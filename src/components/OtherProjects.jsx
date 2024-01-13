@@ -11,6 +11,7 @@ function OtherProjects() {
       githubClientRepo: "https://github.com/Fahim-Arefin/atomic-blog",
       technology: ["React", "Tailwind CSS", "Memoization"],
     },
+
     {
       id: 2,
       name: "World Wise",
