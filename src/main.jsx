@@ -17,10 +17,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     children: [
-      // {
-      //   index: true, // This is the default route for "/"
-      //   element: <Navigate to="/education/graduation" />,
-      // },
       {
         path: "/education/graduation",
         element: <Graduation />,
