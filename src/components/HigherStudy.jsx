@@ -22,6 +22,7 @@ function HigherStudy() {
             Now, armed with a perfect GPA and a passion for web tech, I eagerly
             anticipate applying my skills to new challenges in the next phase.
           </p>
+          <p></p>
         </div>
       </div>
     </div>
