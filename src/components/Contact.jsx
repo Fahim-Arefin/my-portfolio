@@ -55,7 +55,6 @@ function Contact() {
       </div>
 
       {/* modal */}
-      {/* You can open the modal using document.getElementById('ID').showModal() method */}
       <dialog ref={modalRef} id="my_modal_3" className="modal ">
         <div className="modal-box bg-[#112240] text-[#64ffdb]">
           <form method="dialog">
