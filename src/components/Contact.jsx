@@ -60,6 +60,7 @@ function Contact() {
         <div className="modal-box bg-[#112240] text-[#64ffdb]">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
+            {/* if there is a button in form, it will close the modal */}
             <button
               onClick={() => modalRef.current.close()}
               className="btn btn-sm btn-circle btn-ghost absolute right-3 top-3"
